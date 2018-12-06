@@ -3,9 +3,9 @@ server:
 
 eureka:
   instance:
-    hostname: localhost33
+    hostname: localhost44
   client:
-    registerWithEureka: false
+    registerWithEureka: false44
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
